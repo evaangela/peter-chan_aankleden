@@ -13,7 +13,7 @@ function veranderKleding(soortId, kledingArray) {
     hoeveel = (hoeveel + 1) % kledingArray.length;
     kledingStuk = kledingArray[hoeveel];
     let imgKleding = document.querySelector(soortId + ' img');
-    imgKleding.src = 'afbeeldingen/' + kledingStuk;
+    imgKleding.src = kledingStuk;
 }
 
 // knoppen
